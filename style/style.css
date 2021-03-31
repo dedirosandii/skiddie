@@ -1,0 +1,17 @@
+html, body {
+  font-family: 'Reem Kufi', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url(../asset/bg-header.png);
+  margin-top: -90px;
+  padding: 150px 0 135px;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.navbar .navbar-brand img {
+  max-width: 150px;
+}
+/*# sourceMappingURL=style.css.map */

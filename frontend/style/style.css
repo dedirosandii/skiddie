@@ -1,0 +1,271 @@
+body {
+  font-family: "Reem Kufi", sans-serif !important;
+  color: #005864;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .navbar-nav .btn-join {
+  background-color: #005864;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.navbar .navbar-nav .btn-join:hover {
+  background-color: #048899;
+  color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: normal;
+  color: #005864;
+}
+
+.navbar .navbar-brand img {
+  max-width: 120px;
+}
+
+.section-header .jumbotron {
+  margin-top: -75px;
+  background-image: url("../asset/bg-header.png");
+  background-size: cover;
+  padding: 164px 0 100px;
+}
+
+.section-header .jumbotron .left-content-header .btn-say-hello {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #fff;
+  color: #005864;
+  border-radius: 15px;
+}
+
+.section-header .jumbotron .left-content-header .btn-say-hello:hover {
+  background-color: #048899;
+  color: #fff;
+}
+
+.section-header .jumbotron .left-content-header .img-logo img {
+  margin-left: 25px;
+}
+
+.section-header .jumbotron .left-content-header h1 {
+  font-size: 48px;
+}
+
+.section-header .jumbotron .left-content-header p {
+  font-size: 20px;
+}
+
+.section-header .jumbotron .right-content-header img {
+  margin-top: 10px;
+}
+
+.section-about {
+  margin-top: 80px;
+}
+
+.section-about .text-about h3 {
+  font-size: 40px;
+}
+
+.section-about .text-about p {
+  font-size: 20px;
+}
+
+.section-vision {
+  margin-top: 30px;
+}
+
+.section-vision .card-vision {
+  margin-top: 30px;
+  background-color: #9dfbfb;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  -webkit-box-shadow: 9px 9px 9px #807c7c;
+          box-shadow: 9px 9px 9px #807c7c;
+}
+
+.section-vision .card-vision .header-text h2 {
+  font-size: 48px;
+}
+
+.section-vision .card-vision .header-text p {
+  font-size: 24px;
+}
+
+.section-card-parallax .card {
+  margin-top: 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: 9px 9px 10px #363636;
+          box-shadow: 9px 9px 10px #363636;
+}
+
+.section-card-parallax .card p {
+  padding-top: 20px;
+}
+
+.section-card-parallax .we-do .img-wedo img {
+  max-height: 140px;
+}
+
+.section-project {
+  margin-top: 150px;
+}
+
+.section-project h2 {
+  font-size: 40px;
+}
+
+.section-footer {
+  margin-top: 200px;
+}
+
+.section-footer .footer-logo a {
+  color: #005864;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 18px;
+}
+
+.section-footer .footer-text {
+  font-size: 20px;
+}
+
+.modal .modal-body .img-modal {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .modal .modal-body .img-modal {
+    display: block;
+  }
+  .modal .modal-body .img-modal img {
+    margin-left: -40px;
+    margin-top: -40px;
+  }
+  .modal .modal-body .button-send button {
+    border-radius: 15px;
+    width: 250px;
+    background-color: #005864;
+  }
+  .modal .modal-body .button-send button:hover {
+    background-color: #037888;
+  }
+  .navbar {
+    background-color: transparent;
+  }
+  .navbar .navbar-nav .btn-join {
+    margin-left: 10px;
+    background-color: #fff;
+    color: #005864;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 35px;
+  }
+  .navbar .navbar-nav .btn-join:hover {
+    background-color: #027a8a;
+    color: #fff;
+  }
+  .navbar .navbar-nav .nav-link {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #797777;
+  }
+  .navbar .navbar-brand img {
+    max-width: 120px;
+  }
+  .section-header .jumbotron .right-content-header img {
+    margin-top: -30px;
+  }
+  .section-vision {
+    margin-top: 80px;
+  }
+  .section-vision .card-vision {
+    width: 500px;
+    background-color: #9dfbfb;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    -webkit-box-shadow: 9px 9px 9px #807c7c;
+            box-shadow: 9px 9px 9px #807c7c;
+  }
+  .section-vision .card-vision .header-text h2 {
+    font-size: 48px;
+  }
+  .section-vision .card-vision .header-text p {
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 24px;
+  }
+  .section-vision .card-vision-right {
+    margin-top: 120px;
+  }
+  .section-vision .card-vision-right h2 {
+    margin-bottom: 30px;
+  }
+  .section-vision .card-vision-right p {
+    padding: 0 !important;
+    margin-left: 70px;
+    margin-top: -20px;
+  }
+  .section-parallax {
+    min-height: 300px;
+    background-image: url("../asset/paralax.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.9;
+  }
+  .section-parallax h2 {
+    padding-top: 10px;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0 0 10px black, 0 0 20px black;
+  }
+  .section-parallax::after {
+    content: "";
+    display: block;
+    min-height: 300px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+  }
+  .section-card-parallax .card {
+    height: 280px;
+    width: 240px;
+    border-radius: 15px;
+    -webkit-box-shadow: 9px 9px 10px #363636;
+            box-shadow: 9px 9px 10px #363636;
+  }
+  .section-card-parallax .card p {
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section-card-parallax .move-top {
+    margin-top: -230px;
+  }
+  .section-card-parallax .we-do {
+    margin-top: -150px;
+  }
+  .section-card-parallax .we-do .img-wedo img {
+    max-height: 140px;
+  }
+  .section-project {
+    margin-top: 150px;
+  }
+  .section-project h2 {
+    font-size: 40px;
+  }
+  .section-project .img-gallery img {
+    height: 220px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

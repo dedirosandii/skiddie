@@ -1,0 +1,343 @@
+body {
+  font-family: "Reem Kufi", sans-serif !important;
+  color: #005864;
+  // height: 350vh;
+  // overflow-x: hidden;
+}
+
+.navbar {
+  background-color: white;
+  .navbar-nav {
+    .btn-join {
+      background-color: #005864;
+      color: #fff;
+      border-radius: 12px;
+      // height: 35px;
+      &:hover {
+        background-color: #048899;
+        color: #fff;
+      }
+    }
+    .nav-link {
+      font-size: 18px;
+      font-weight: normal;
+      color: #005864;
+    }
+  }
+  .navbar-brand {
+    img {
+      max-width: 120px;
+    }
+  }
+}
+
+.section-header {
+  .jumbotron {
+    margin-top: -75px;
+    background-image: url("../asset/bg-header.png");
+    background-size: cover;
+    padding: 164px 0 100px;
+
+    .left-content-header {
+      .btn-say-hello {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: #fff;
+        color: #005864;
+        border-radius: 15px;
+
+        &:hover {
+          background-color: #048899;
+          color: #fff;
+        }
+      }
+      .img-logo {
+        img {
+          margin-left: 25px;
+        }
+      }
+      h1 {
+        font-size: 48px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+
+    .right-content-header {
+      img {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.section-about {
+  margin-top: 80px;
+  .text-about {
+    h3 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+.section-vision {
+  margin-top: 30px;
+  .card-vision {
+    // width: 500px;
+    margin-top: 30px;
+    background-color: #9dfbfb;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 9px 9px 9px rgba($color: #807c7c, $alpha: 1);
+    .header-text {
+      h2 {
+        font-size: 48px;
+      }
+      p {
+        // padding-left: 80px;
+        // padding-right: 80px;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.section-card-parallax {
+  .card {
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 9px 9px 10px rgba($color: #363636, $alpha: 1);
+    p {
+      padding-top: 20px;
+    }
+  }
+  .we-do {
+    .img-wedo {
+      img {
+        max-height: 140px;
+        // border: 0;
+      }
+    }
+  }
+}
+
+.section-project {
+  margin-top: 150px;
+  h2 {
+    font-size: 40px;
+  }
+}
+
+.section-footer {
+  margin-top: 200px;
+
+  .footer-logo {
+    a {
+      color: #005864;
+      margin-left: 3px;
+      margin-right: 3px;
+      font-size: 18px;
+    }
+  }
+  .footer-text {
+    font-size: 20px;
+  }
+}
+
+// modal
+.modal {
+  .modal-body {
+    .img-modal {
+      display: none;
+    }
+  }
+}
+
+// dekstop version
+@media (min-width: 992px) {
+  // modal
+  // modal
+  .modal {
+    .modal-body {
+      .img-modal {
+        display: block;
+        img {
+          margin-left: -40px;
+          margin-top: -40px;
+        }
+      }
+
+      .button-send {
+        button {
+          border-radius: 15px;
+          width: 250px;
+          background-color: #005864;
+
+          &:hover {
+            background-color: #037888;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar {
+    .navbar-nav {
+      .btn-join {
+        margin-left: 10px;
+        background-color: #fff;
+        color: #005864;
+        border-radius: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 35px;
+
+        &:hover {
+          background-color: #027a8a;
+          color: #fff;
+        }
+      }
+      .nav-link {
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: normal;
+        &:hover {
+          border-bottom: 2px solid #797777;
+        }
+      }
+    }
+    background-color: transparent;
+    .navbar-brand {
+      img {
+        max-width: 120px;
+      }
+    }
+  }
+
+  .section-header {
+    .jumbotron {
+      .right-content-header {
+        img {
+          margin-top: -30px;
+        }
+      }
+    }
+  }
+
+  .section-vision {
+    margin-top: 80px;
+    .card-vision {
+      width: 500px;
+      background-color: #9dfbfb;
+      border-top-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      box-shadow: 9px 9px 9px rgba($color: #807c7c, $alpha: 1);
+      .header-text {
+        h2 {
+          font-size: 48px;
+        }
+        p {
+          padding-left: 80px;
+          padding-right: 80px;
+          font-size: 24px;
+        }
+      }
+    }
+
+    .card-vision-right {
+      margin-top: 120px;
+      h2 {
+        margin-bottom: 30px;
+      }
+      p {
+        padding: 0 !important;
+        margin-left: 70px;
+        margin-top: -20px;
+      }
+    }
+  }
+
+  .section-parallax {
+    min-height: 300px;
+    background-image: url("../asset/paralax.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    // background-color: #005864;
+    opacity: 0.9;
+    h2 {
+      padding-top: 10px;
+      font-size: 40px;
+      color: #fff;
+
+      text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0);
+    }
+  }
+
+  .section-parallax::after {
+    content: "";
+    display: block;
+    min-height: 300px;
+    // margin-top: 800px;
+
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    );
+  }
+
+  .section-card-parallax {
+    .card {
+      height: 280px;
+      width: 240px;
+      border-radius: 15px;
+      box-shadow: 9px 9px 10px rgba($color: #363636, $alpha: 1);
+      p {
+        padding-top: 20px;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    .move-top {
+      margin-top: -230px;
+    }
+    .we-do {
+      margin-top: -150px;
+      .img-wedo {
+        img {
+          max-height: 140px;
+          // border: 0;
+        }
+      }
+    }
+  }
+  .section-project {
+    margin-top: 150px;
+    h2 {
+      font-size: 40px;
+    }
+    .img-gallery {
+      img {
+        height: 220px;
+      }
+    }
+  }
+}
+// .section-header {
+//   .banner {
+//     img {
+//       background-size: cover !important;
+//       // height: 550px;
+//     }
+//   }
+//   .text-header-top {
+//     margin-top: -130px;
+//   }
+// }
